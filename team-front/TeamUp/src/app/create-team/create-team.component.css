@@ -1,6 +1,6 @@
 img{
-  width: 100%;
-  height: fit-content;
+  width: 40%;
+  height: 40%;
   margin: auto;
 }
 
@@ -12,11 +12,15 @@ input{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  text-align: center;
+}
+p{
+font-weight: bold;
 }
 
 
 button {
-  width: auto;
+  width: 100%;
   border-radius: 4px;
   background-color: #4CAF50;
   border: none;
@@ -57,17 +61,6 @@ span{
   font-weight: bold;
 }
 
-.message{
-  margin-left: 40%;
-  align-self: center;
-  text-align: center;
-  height: 90px;
-  width: 20%;
-}
+.downButton{
 
-.bigButton{
-  position: absolute;
-  right: 0;
-  top: 25%;
-  right: 10%;
 }

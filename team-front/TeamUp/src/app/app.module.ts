@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import { CreateTeamComponent } from './create-team/create-team.component';
+import { RandomTeamComponent } from './random-team/random-team.component';
 
 const appRoutes:Routes =[
   {path:'',
@@ -16,7 +20,11 @@ const appRoutes:Routes =[
   {path:'home',
     component:HomeComponent},
   {path:'contactUs',
-  component:ContactUsComponent}
+  component:ContactUsComponent},
+  {path:'createTeam',
+  component:CreateTeamComponent},
+  {path:'randomTeam',
+  component:RandomTeamComponent}
 ];
 
 @NgModule({
@@ -26,12 +34,16 @@ const appRoutes:Routes =[
     HomeComponent,
     AboutUsComponent,
     ContactUsComponent,
+    CreateTeamComponent,
+    RandomTeamComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes,{enableTracing:true}),
-    NgbModule
+    NgbModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

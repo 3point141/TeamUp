@@ -1,0 +1,65 @@
+<app-navbar></app-navbar>
+<div class="body">
+  <h1 align="center"> Team Up | Make Your Team</h1>
+  <form name="form" #f="ngForm" (ngSubmit)="f.form.valid && checkPossibility()" novalidate class="feedback-form">
+    <div class="card-group">
+      <div class="card text-white bg-dark">
+        <img class="card-img-top" src="../../assets/players.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" align="center">Number Of Players</h5>
+          <br>
+          <p class="card-text">Input the number of players in total</p>
+          <p class="card-text">Minumum : 1</p>
+          <p class="card-text">Maximum : 100</p>
+          <input type="number" placeholder="Number of Players"
+                 min="1"
+                 max="100"
+                 name="numberOfPlayers"
+                 id="numberOfPlayers"
+                 [(ngModel)]="teamDetails.numberOfPlayers"
+                 required="required">
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="../../assets/team.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" align="center">Number Of Teams</h5>
+          <br>
+          <p class="card-text">Input the number of teams you want</p>
+          <p class="card-text">Minimum : 1</p>
+          <p class="card-text">Maximum : 100</p>
+          <input class="border-dark"
+                 type="number"
+                 placeholder="Number of Teams"
+                 min="1"
+                 max="100"
+                 name="numberOfTeams"
+                 id="numberOfTeams"
+                 [(ngModel)]="teamDetails.numberOfTeams">
+        </div>
+      </div>
+      <div class="card text-white bg-dark">
+        <img class="card-img-top" src="../../assets/possibility.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" align="center">Check Possibility</h5> <br>
+          <p class="card-text">Check if team formation is possible or not. </p>
+          <p class="card-text">Click on Check button to check status </p>
+          <p class="card-text">Status : {{message}}</p>
+          <button type="submit"><span>Check</span></button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div *ngIf="further">
+  <table align="center">
+    <tr>
+      <td style="margin: auto">
+        <button class="downButton" type="button" routerLink="/randomTeam"><span>Create Team Randomly</span></button>
+      </td>
+      <td style="margin: auto">
+        <button class="downButton" type="button" routerLink="#"><span>Create in Team Up Style</span></button>
+      </td>
+    </tr>
+  </table>
+</div>
