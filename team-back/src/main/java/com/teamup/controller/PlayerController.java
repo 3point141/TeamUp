@@ -29,4 +29,9 @@ public class PlayerController {
     public boolean checkTeamCreation(@RequestBody TeamDetails teamDetails, Model model){
         return teamService.possible(teamDetails);
     }
+
+    @PostMapping("/random")
+    public List<PlayerDetails> makeRandomTeams(@RequestBody List<PlayerDetails> playerDetails, Model model){
+        return playerService.randomize(playerDetails);
+    }
 }
