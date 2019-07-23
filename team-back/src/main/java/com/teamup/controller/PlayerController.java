@@ -34,4 +34,9 @@ public class PlayerController {
     public List<PlayerDetails> makeRandomTeams(@RequestBody List<PlayerDetails> playerDetails, Model model){
         return playerService.randomize(playerDetails);
     }
+
+    @PostMapping("/teamdiv/{numberOfTeams}")
+    public List<PlayerDetails> maeTeamsTeamUpStyle(@RequestBody List<PlayerDetails> playerDetails,@PathVariable int numberOfTeams, Model model){
+        return playerService.teamUpStyle(playerDetails,numberOfTeams);
+    }
 }
