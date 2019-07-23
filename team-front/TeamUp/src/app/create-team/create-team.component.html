@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <div class="body">
-  <h1 align="center"> Team Up | Make Your Team</h1>
+  <h1 align="center" style="color: #FFFFFF;"> Team Up | <font color="#28a745">Make Your Team</font></h1>
   <form name="form" #f="ngForm" (ngSubmit)="f.form.valid && checkPossibility()" novalidate class="feedback-form">
     <div class="card-group">
       <div class="card text-white bg-dark">
@@ -9,10 +9,10 @@
           <h5 class="card-title" align="center">Number Of Players</h5>
           <br>
           <p class="card-text">Input the number of players in total</p>
-          <p class="card-text">Minumum : 1</p>
+          <p class="card-text">Minumum : 4</p>
           <p class="card-text">Maximum : 100</p>
           <input type="number" placeholder="Number of Players"
-                 min="1"
+                 min="4"
                  max="100"
                  name="numberOfPlayers"
                  id="numberOfPlayers"
@@ -26,12 +26,12 @@
           <h5 class="card-title" align="center">Number Of Teams</h5>
           <br>
           <p class="card-text">Input the number of teams you want</p>
-          <p class="card-text">Minimum : 1</p>
+          <p class="card-text">Minimum : 2</p>
           <p class="card-text">Maximum : 100</p>
           <input class="border-dark"
                  type="number"
                  placeholder="Number of Teams"
-                 min="1"
+                 min="2"
                  max="100"
                  name="numberOfTeams"
                  id="numberOfTeams"

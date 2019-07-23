@@ -9,18 +9,18 @@
   margin-top: 5px;
 }
 
-/*button {
-  width: auto;
-  border-radius: 4px;
-  background-color: #4CAF50;
+button {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: #28a745;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
-  padding: 10px;
+  width: 250px;
   transition: all 0.5s;
   cursor: pointer;
-  float: left;
+
 }
 
 button span {
@@ -34,6 +34,8 @@ button span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
+  top: 0;
+  right: -20px;
   transition: 0.5s;
 }
 
@@ -46,10 +48,6 @@ button:hover span:after {
   right: 0;
 }
 
-
-span{
-  font-weight: bold;
-}*/
 
 img{
   position: absolute;
