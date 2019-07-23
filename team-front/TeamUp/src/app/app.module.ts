@@ -13,6 +13,7 @@ import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { CreateTeamComponent } from './create-team/create-team.component';
 import { RandomTeamComponent } from './random-team/random-team.component';
+import { TeamDivComponent } from './team-div/team-div.component';
 
 const appRoutes:Routes =[
   {path:'',
@@ -24,7 +25,9 @@ const appRoutes:Routes =[
   {path:'createTeam',
   component:CreateTeamComponent},
   {path:'randomTeam',
-  component:RandomTeamComponent}
+  component:RandomTeamComponent},
+  {path:'teamDiv',
+  component:TeamDivComponent}
 ];
 
 @NgModule({
@@ -36,6 +39,7 @@ const appRoutes:Routes =[
     ContactUsComponent,
     CreateTeamComponent,
     RandomTeamComponent,
+    TeamDivComponent,
   ],
   imports: [
     BrowserModule,

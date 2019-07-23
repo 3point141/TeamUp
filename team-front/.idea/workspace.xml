@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a079913d-b6c2-4828-9c13-9d00df029fc6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/collection-2--8167877232543576036.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../data/collection-2--8167877232543576036.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/index-3--8167877232543576036.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../data/index-3--8167877232543576036.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/journal/WiredTigerLog.0000000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../data/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/controller/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/controller/PlayerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/TeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TeamUp/dist/" />
     <ignored path="$PROJECT_DIR$/TeamUp/tmp/" />
@@ -34,15 +41,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="195">
+              <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
               </folding>
@@ -50,35 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="212">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -106,14 +91,17 @@
         <option value="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.css" />
-        <option value="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.ts" />
-        <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.css" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts" />
       </list>
     </option>
   </component>
@@ -134,7 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +154,7 @@
               <item name="TeamUp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+              <item name="random-team" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="team-front" type="b2602c69:ProjectViewProjectNode" />
@@ -174,13 +162,13 @@
               <item name="TeamUp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="random-team" type="462c0819:PsiDirectoryNode" />
+              <item name="team-div" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +176,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562495867382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563791727915" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -217,12 +205,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562401645733</updated>
-      <workItem from="1562401655601" duration="43918000" />
+      <workItem from="1562401655601" duration="44255000" />
+      <workItem from="1562512444096" duration="1888000" />
+      <workItem from="1563609217179" duration="609000" />
+      <workItem from="1563782474636" duration="3639000" />
+      <workItem from="1563855508394" duration="2720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43918000" />
+    <option name="totallyTimeSpent" value="53111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,19 +229,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924356" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.3289689" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -257,15 +243,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32980332" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.32980332" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -307,13 +299,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/nav/nav.component.html" />
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -331,15 +317,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/home/home.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/home/home.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/TeamUp/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -397,16 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -421,17 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="113" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="113" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,17 +426,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css">
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#!!top" expanded="true" />
@@ -489,30 +480,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html">
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="9" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="76">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts">
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="195">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>

@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="header" align="center">TEAM UP | <font style="color: #28a745">Team Up Style</font></h1>
+  </div>
+</div>
+
+<div>
+  <h2 style="margin-left: 34%; float: left">Names</h2>
+  <h2 style="margin-left: 50%">Skills</h2>
+</div>
+
+
+<form name="form" #f="ngForm" (ngSubmit)="f.form.valid && makeTeams()" novalidate class="feedback-form">
+  <div class="left" *ngFor="let player of team; let index=index">
+    <input class="input-group-text" type="text" name="name+{{index}}" placeholder="Name {{index+1}}" [(ngModel)]="team[index].playerName"
+           required="required" style="float: left">
+    <input class="input-group-text" type="number" name="name+{{index}}" placeholder="Skill {{index+1}}" [(ngModel)]="team[index].playerRating"
+           required="required" min="0" max="10">
+    <div *ngIf="(index+1)%oneTeam==0">
+      <div class="progress" style="width: 25%; margin-left: 25%">
+        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button type="submit"><span>Make Teams</span></button>
+  </div>
+</form>
