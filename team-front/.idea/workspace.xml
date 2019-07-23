@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a079913d-b6c2-4828-9c13-9d00df029fc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../team-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TeamUp/dist/" />
     <ignored path="$PROJECT_DIR$/TeamUp/tmp/" />
@@ -33,32 +35,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#H1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#H1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#3;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="e#1577#1585#0" expanded="true" />
-                <element signature="e#1608#1614#0" expanded="true" />
-                <element signature="e#1614#1620#0" expanded="true" />
-                <element signature="e#1620#1626#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1762#1768#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#344#350#0" expanded="true" />
+                <element signature="e#350#356#0" expanded="true" />
+                <element signature="e#356#362#0" expanded="true" />
+                <element signature="e#362#368#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.css">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="646">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +113,6 @@
         <option value="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.css" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts" />
-        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/about-us/about-us.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/navbar/navbar.component.ts" />
@@ -99,10 +127,13 @@
         <option value="$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.css" />
-        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.css" />
-        <option value="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/not-found/not-found.component.css" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/not-found/not-found.component.html" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts" />
+        <option value="$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html" />
       </list>
     </option>
   </component>
@@ -113,9 +144,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,7 +187,15 @@
               <item name="TeamUp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-us" type="462c0819:PsiDirectoryNode" />
+              <item name="random-team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team-front" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamUp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="team-div" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="team-front" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +216,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563919611430" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563922653446" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,12 +250,12 @@
       <workItem from="1562512444096" duration="1888000" />
       <workItem from="1563609217179" duration="609000" />
       <workItem from="1563782474636" duration="3639000" />
-      <workItem from="1563855508394" duration="28471000" />
+      <workItem from="1563855508394" duration="31406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78862000" />
+    <option name="totallyTimeSpent" value="81797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,9 +268,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,7 +287,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.25531915" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.36988544" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.32405892" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -330,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -348,26 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="44" column="3" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="44" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="40" selection-start-line="40" selection-end-line="41" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -499,31 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="16" lean-forward="true" selection-end-line="50" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -538,27 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#344#350#0" expanded="true" />
-            <element signature="e#350#356#0" expanded="true" />
-            <element signature="e#356#362#0" expanded="true" />
-            <element signature="e#362#368#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -568,30 +534,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="161">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" selection-start-line="21" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/not-found/not-found.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/contact-us/contact-us.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#H1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#H1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#3;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="e#1577#1585#0" expanded="true" />
-            <element signature="e#1608#1614#0" expanded="true" />
-            <element signature="e#1614#1620#0" expanded="true" />
-            <element signature="e#1620#1626#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1762#1768#0" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/not-found/not-found.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/random-team/random-team.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#344#350#0" expanded="true" />
+            <element signature="e#350#356#0" expanded="true" />
+            <element signature="e#356#362#0" expanded="true" />
+            <element signature="e#362#368#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

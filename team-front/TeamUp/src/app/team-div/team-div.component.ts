@@ -35,14 +35,25 @@ export class TeamDivComponent implements OnInit {
     }
   }
 
+  showLoading:boolean=null;
   makeTeams() {
-    console.log(this.team);
     const formData= new FormData();
     this.http.post<inputTeam[]>("http://localhost:8080/teamdiv/"+this.numberOfTeams,this.team).subscribe(
       res=>{
         console.log(res);
+        this.team=res;
+        console.log(this.team);
+        sessionStorage.setItem('teamDetails',JSON.stringify(res));
+        this.showLoading=true;
+        this.changeLoading()
       }
     )
+  }
+
+  changeLoading():void{
+    setTimeout(()=>{
+      this.showLoading=false;
+    },3000);
   }
 }
 

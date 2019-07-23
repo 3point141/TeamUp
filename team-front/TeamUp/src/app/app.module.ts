@@ -15,6 +15,7 @@ import { CreateTeamComponent } from './create-team/create-team.component';
 import { RandomTeamComponent } from './random-team/random-team.component';
 import { TeamDivComponent } from './team-div/team-div.component';
 import { WavesComponent } from './waves/waves.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const appRoutes:Routes =[
   {path:'',
@@ -29,6 +30,8 @@ const appRoutes:Routes =[
   component:RandomTeamComponent},
   {path:'teamDiv',
   component:TeamDivComponent},
+  {path:'**',
+  component:NotFoundComponent}
 ];
 
 @NgModule({
@@ -42,6 +45,7 @@ const appRoutes:Routes =[
     RandomTeamComponent,
     TeamDivComponent,
     WavesComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

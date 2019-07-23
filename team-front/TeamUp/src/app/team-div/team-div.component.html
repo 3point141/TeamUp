@@ -20,8 +20,8 @@
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
               <input class="input-group-text" type="text" name="name+{{index}}" placeholder="Name {{index+1}}" [(ngModel)]="team[index].playerName"
-                     required="required" style="float: left">
-              <input class="input-group-text" type="number" name="name+{{index}}" placeholder="Skill {{index+1}}" [(ngModel)]="team[index].playerRating"
+                     required="required" style="float: left" >
+              <input class="input-group-text" type="number" name="skill+{{index}}" placeholder="Skill {{index+1}}" [(ngModel)]="team[index].playerRating"
                      required="required" min="0" max="10">
             </div>
             <div class="col-sm-4"></div>

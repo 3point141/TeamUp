@@ -67,17 +67,6 @@ public class PlayerService {
         }
         assert false;
         restPlayers.sort(Comparator.comparingInt(PlayerDetails::getPlayerRating));
-
-        /*normalTraverse=0;
-        for(int i=0;i<playerDetails.size();i++)
-        {
-            if(newTeam.get(i).getPlayerName()==null) {
-                newTeam.set(i, restPlayers.get(normalTraverse));
-                normalTraverse++;
-            }
-        }*/
-
-        System.out.println(numberOfTeams+"other team index");
         int j=1;
         normalTraverse=0;
         for(int i=0;i<otherTeamIndex-1;i++){
@@ -88,6 +77,7 @@ public class PlayerService {
                 start+=otherTeamIndex;
             }
         }
-        return newTeam;
+        playerDetails=newTeam;
+        return playerDetails;
     }
 }
