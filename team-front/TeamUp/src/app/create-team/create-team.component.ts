@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
-import {ContactUs} from "../contact-us/contact-us.component";
 
 @Component({
   selector: 'app-create-team',
@@ -35,7 +34,7 @@ export class CreateTeamComponent implements OnInit {
           sessionStorage.setItem('teams',this.teamDetails.numberOfTeams.toString());
         }
         else {
-          this.message = "Team Formation Not Possible"
+          this.message = "Team Formation Not Possible";
           this.further=false;
           sessionStorage.clear();
         }

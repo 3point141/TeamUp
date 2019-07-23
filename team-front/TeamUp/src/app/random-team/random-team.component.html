@@ -1,31 +1,59 @@
 <app-navbar></app-navbar>
-<div class="container">
-  <div class="jumbotron">
-    <h1 class="header" align="center">TEAM UP | <font style="color: #28a745">Random Team Formation</font></h1>
-  </div>
+
+<div class="container-fluid">
+
+<div class="container-fluid">
+    <h1 class="header" align="center" style="color: #FFFFFF;">TEAM UP | <font style="color: #28a745">Random Team Formation</font></h1>
+</div>
+<br><br><br><br>
+
+<div align="center" class="container-fluid">
+  <h2 style="color: crimson">Names</h2>
 </div>
 
-<div>
-  <h2 style="margin-left: 34%">Names</h2>
-</div>
 
 <form name="form" #f="ngForm" (ngSubmit)="f.form.valid && makeTeams()" novalidate class="feedback-form">
-<div class="left" *ngFor="let player of playerDetails; let index=index">
-  <input class="input-group-text" type="text" name="name+{{index}}" placeholder="Name {{index+1}}" [(ngModel)]="playerDetails[index].playerName"
-  required="required">
-  <div *ngIf="(index+1)%oneTeam==0">
-    <div class="progress" style="width: 25%; margin-left: 25%">
-      <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="container-fluid" align="center">
+    <div class="card text-white bg-success mb-3">
+      <div class="card-body" *ngFor="let player of playerDetails; let index=index">
+        <input class="input-group-text" type="text" name="name+{{index}}" placeholder="Name {{index+1}}" [(ngModel)]="playerDetails[index].playerName"
+               required="required">
+        <div *ngIf="(index+1)%oneTeam==0">
+          <div class="progress" style="width: 25%;margin-top: 1%">
+            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- <div *ngFor="let player of playerDetails; let index=index">
+      <input class="input-group-text" type="text" name="name+{{index}}" placeholder="Name {{index+1}}" [(ngModel)]="playerDetails[index].playerName"
+             required="required">
+      <div *ngIf="(index+1)%oneTeam==0">
+        <div class="progress" style="width: 25%; margin-left: 25%">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>-->
+  </div>
+<div>
+  <button type="submit"><span>Make Teams</span></button>
+</div>
+</form>
+  <div *ngIf="showLoading">
+  <img src="../../assets/loading.gif">
+  </div>
+
+<div class="container-fluid">
+<div class="waveAnimation waveWrapper waveAnimation" style="height: 105px; position: relative;">
+  <div class="newImage waveAnimation waveWrapper" style="position: absolute; bottom: 0;">
+    <div style="background-repeat: repeat no-repeat;
+                background-position: 0 bottom;
+                transform-origin: center bottom;"
+         class="waveBottom wave">
+      <img src="http://front-end-noobs.com/jecko/img/wave-mid.png"
+           style="opacity: 0.5; width: 100%;">
     </div>
   </div>
 </div>
-
-<div>
-  <button type="submit"><span>Make Teams</span></button>
-</div>  
-</form>
-
-<div *ngIf="showLoading">
-  <img src="../../assets/loading.gif">
 </div>
-
+</div>

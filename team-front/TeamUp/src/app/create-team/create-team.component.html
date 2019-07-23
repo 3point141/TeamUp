@@ -51,15 +51,15 @@
     </div>
   </form>
 </div>
-<div *ngIf="further">
-  <table align="center">
-    <tr>
-      <td style="margin: auto">
-        <button class="downButton" type="button" routerLink="/randomTeam"><span>Create Team Randomly</span></button>
-      </td>
-      <td style="margin: auto">
-        <button class="downButton" type="button" routerLink="/teamDiv"><span>Create in Team Up Style</span></button>
-      </td>
-    </tr>
-  </table>
+
+<div *ngIf="further" class="container-fluid" style="margin-top: 5px">
+  <div class="row">
+    <div class="col-lg-6">
+      <button class="downButton" type="button" routerLink="/randomTeam"><span>Create Team Randomly</span></button>
+    </div>
+    <div class="col-lg-6">
+      <button class="downButton" type="button" routerLink="/teamDiv"><span>Create in Team Up Style</span></button>
+    </div>
+  </div>
 </div>
+

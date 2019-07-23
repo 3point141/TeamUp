@@ -20,7 +20,12 @@ export class NavbarComponent implements OnInit {
   }
 
   scroll() {
+    this.router.navigate(['home']);
     window.scrollTo({top:550,behavior:"smooth"});
   }
 
+  navbarOpen:boolean=false;
+  toggleNavbar() {
+    this.navbarOpen=!this.navbarOpen;
+  }
 }

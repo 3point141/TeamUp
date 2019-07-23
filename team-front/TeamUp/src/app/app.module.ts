@@ -14,6 +14,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { CreateTeamComponent } from './create-team/create-team.component';
 import { RandomTeamComponent } from './random-team/random-team.component';
 import { TeamDivComponent } from './team-div/team-div.component';
+import { WavesComponent } from './waves/waves.component';
 
 const appRoutes:Routes =[
   {path:'',
@@ -40,6 +41,7 @@ const appRoutes:Routes =[
     CreateTeamComponent,
     RandomTeamComponent,
     TeamDivComponent,
+    WavesComponent,
   ],
   imports: [
     BrowserModule,
