@@ -13,9 +13,6 @@
       <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/PlayerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/java/com/teamup/service/TeamService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../team-back/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeamUp/src/app/create-team/create-team.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TeamUp/dist/" />
     <ignored path="$PROJECT_DIR$/TeamUp/tmp/" />
@@ -63,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+              <caret line="40" selection-start-line="40" selection-end-line="41" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -209,12 +206,12 @@
       <workItem from="1562512444096" duration="1888000" />
       <workItem from="1563609217179" duration="609000" />
       <workItem from="1563782474636" duration="3639000" />
-      <workItem from="1563855508394" duration="2720000" />
+      <workItem from="1563855508394" duration="2963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53111000" />
+    <option name="totallyTimeSpent" value="53354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +515,7 @@
     <entry file="file://$PROJECT_DIR$/TeamUp/src/app/team-div/team-div.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <caret line="40" selection-start-line="40" selection-end-line="41" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
