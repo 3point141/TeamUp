@@ -28,7 +28,7 @@ const appRoutes:Routes =[
   {path:'randomTeam',
   component:RandomTeamComponent},
   {path:'teamDiv',
-  component:TeamDivComponent}
+  component:TeamDivComponent},
 ];
 
 @NgModule({
@@ -46,7 +46,7 @@ const appRoutes:Routes =[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes,{enableTracing:true}),
+    RouterModule.forRoot(appRoutes,{useHash:true}),
     NgbModule,
     FormsModule,
     HttpClientModule
