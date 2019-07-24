@@ -24,7 +24,7 @@ export class CreateTeamComponent implements OnInit {
 
 
   checkPossibility(): void {
-    let url = "http://localhost:8080/createTeam";
+    let url = "https://lets-teamup.herokuapp.com/createTeam";
     this.http.post<TeamDetails>(url,this.teamDetails).subscribe(
       res => {
         if(res) {

@@ -38,7 +38,7 @@ export class TeamDivComponent implements OnInit {
   showLoading:boolean=null;
   makeTeams() {
     const formData= new FormData();
-    this.http.post<inputTeam[]>("http://localhost:8080/teamdiv/"+this.numberOfTeams,this.team).subscribe(
+    this.http.post<inputTeam[]>("https://lets-teamup.herokuapp.com/teamdiv/"+this.numberOfTeams,this.team).subscribe(
       res=>{
         console.log(res);
         this.team=res;

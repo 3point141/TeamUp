@@ -24,7 +24,7 @@ export class ContactUsComponent implements OnInit {
   getBack:boolean=null;
 
   sendFeedback(): void {
-    let url = "http://localhost:8080/contact";
+    let url = "https://lets-teamup.herokuapp.com/contact";
     fetch(url)
       .then(response => response.text())
       .then(contents => console.log(contents))

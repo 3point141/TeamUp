@@ -44,7 +44,7 @@ export class RandomTeamComponent implements OnInit {
 
 
   makeTeams(): void {
-    let url = "http://localhost:8080/random";
+    let url = "https://lets-teamup.herokuapp.com/random";
 
     this.http.post<PlayerDetails[]>(url,this.playerDetails).subscribe(
       res => {

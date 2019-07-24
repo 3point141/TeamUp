@@ -16,6 +16,7 @@ import { RandomTeamComponent } from './random-team/random-team.component';
 import { TeamDivComponent } from './team-div/team-div.component';
 import { WavesComponent } from './waves/waves.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SessionComponent } from './session/session.component';
 
 const appRoutes:Routes =[
   {path:'',
@@ -30,6 +31,8 @@ const appRoutes:Routes =[
   component:RandomTeamComponent},
   {path:'teamDiv',
   component:TeamDivComponent},
+  {path:'session',
+  component:SessionComponent},
   {path:'**',
   component:NotFoundComponent}
 ];
@@ -46,6 +49,7 @@ const appRoutes:Routes =[
     TeamDivComponent,
     WavesComponent,
     NotFoundComponent,
+    SessionComponent,
   ],
   imports: [
     BrowserModule,
